@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+
+<div class="toDoContent">
+    <div class="toDoAdd">
+      <input
+        type="datetime-local"
+        class="toDoTime"
+        placeholder="Enter Time"
+      />
+      <input
+        type="text"
+        placeholder="Enter Task"
+        id="toDoText"
+        maxlength="20"
+      />
+      <button type="button" class="toDoButton">Add</button>
+    </div>
+
+    <div class="listSection">
+      <div class="toDoList-Head">Time</div>
+
+      <div class="toDoList-Head">| Task</div>
+    </div>
+
+    <div class="mainSection"></div>
+ </div>
